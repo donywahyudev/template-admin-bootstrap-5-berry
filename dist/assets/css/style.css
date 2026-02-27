@@ -30404,13 +30404,13 @@ div:where(.swal2-container) button:where(.swal2-close):focus {
 }
 .modal.fade.modal-animate.anim-3d-rotate-InLeft .modal-dialog {
   transform-style: preserve-3d;
-  transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+  transform: translateZ(100px) translateX(-30%) rotateY(90deg) !important;
   transform-origin: 0 100%;
   opacity: 0;
   transition: all 0.3s;
 }
 .modal.fade.modal-animate.anim-3d-rotate-InLeft.show .modal-dialog {
-  transform: translateZ(0px) translateX(0%) rotateY(0deg);
+  transform: translateZ(0px) translateX(0%) rotateY(0deg) !important;
   opacity: 1;
 }
 .modal.fade.modal-animate.anim-blur {
